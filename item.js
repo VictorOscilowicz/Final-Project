@@ -1,9 +1,9 @@
 class Item{
   //Fill in the item class below this comment.
-  constructor(itemname,itemprice,itemshipping){
-    this.name=itemname;
-    this.price=itemprice;
-    this.shipping=itemshipping;
+  constructor(n,p,s){
+    this.name=n;
+    this.price=p;
+    this.shipping=s;
   }
 }
 
