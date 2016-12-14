@@ -23,8 +23,10 @@ class Cart{
   subCart(days){
     subCart=new Cart;
 
-    for(s=0;s<this.itemList;s++){
+    for(s=0;s<this.itemList.length;s++){
+      if(){
 
+      }
     }
     return subCart;
   }
