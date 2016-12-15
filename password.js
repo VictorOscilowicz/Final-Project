@@ -10,24 +10,39 @@ class Password{
     for(){
 
     }
-    return
+
+    if(){
+
+    }
+    else if(){
+
+    }
   }
 
   validPrivateKey(){
     for(){
 
+      if(){
+
+      }
+
+      else if(){
+        return "true";
+      }
+
+      else(){
+        return "false";
+      }
     }
-    return
   }
 
   //Static function below this comment.
   static makePrivateKey(){
-    let key=[];
+    let key="";
     let limit=14;
 
-    for(l=0;l<14;l++){
+    for(l=0;l<=14;l++){
 
     }
-
   }
 }
