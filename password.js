@@ -7,20 +7,16 @@ class Password{
 
   //Instance functions below this comment.
   validPublicKey(){
-    for(){
-
+    while(this.publicKey.length>=8; this.publicKey.length<=25);
+      return "true";
     }
-
-    if(){
-
-    }
-    else if(){
-
+    else(){
+      return "false";
     }
   }
 
   validPrivateKey(){
-    for(){
+    for(var h){
 
       if(){
 
@@ -42,6 +38,7 @@ class Password{
     let limit=14;
 
     for(l=0;l<=14;l++){
+      let number = Math.round(Math.random()*10);
 
     }
   }
