@@ -14,7 +14,7 @@ class Cart{
   totalCart(){
     var total=0;
 
-    for(t=0;this.itemlist.length;t++){
+    for(var t=0;this.itemlist.length;t++){
       total+=(this.itemList[t]*this.itemQuantity[t]);
     }
     return total;
@@ -23,9 +23,9 @@ class Cart{
   subCart(days){
     subCart=new Cart;
 
-    for(s=0;s<this.itemList.length;s++){
-      if(){
-
+    for(var s=0;s<this.itemList.length;s++){
+      if(this.itemList[s] == days){
+        this.itemList.push[s];
       }
     }
     return subCart;
